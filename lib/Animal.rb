@@ -2,11 +2,11 @@ class Animal
     attr_accessor :weight, :zoo
     attr_reader :species, :nickname
     @@all = []
-    def initialize(species, weight, nickname)
+    def initialize(species, weight, nickname, zoo = nil)
         @species = species
         @weight = weight
         @nickname = nickname
-        @zoo = "You'll never take me alive!"
+        @zoo = zoo
         @@all << self
     end
 

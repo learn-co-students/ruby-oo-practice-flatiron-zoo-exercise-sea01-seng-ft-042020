@@ -4,10 +4,10 @@ require 'pry'
 
 
 #Test your code here
-toby = Animal.new("cat", 2, "jerk")
+toby = Animal.new("cat", 2, "jerk", parents)
 sophie = Animal.new("dog", 38, "goof")
-abby = Animal.new("dog", 7, "squirt")
-winnie = Animal.new("cat", 3, "cutie")
+abby = Animal.new("dog", 7, "squirt", parents)
+winnie = Animal.new("cat", 3, "cutie", parents)
 steven = Animal.new("human", 160, "accident")
 
 parents = Zoo.new("Parents House", "LA")
