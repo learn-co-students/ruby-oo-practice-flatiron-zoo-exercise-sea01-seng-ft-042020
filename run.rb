@@ -23,7 +23,6 @@ sophie.send_to_zoo(parents)
 
 abby.send_to_zoo(parents)
 
-binding.pry
 #-----copy and paste lines below 1 by one in pry to test response---#
 Animal.all
 winnie.weight?
