@@ -27,7 +27,7 @@ zoo_3.nicknames
 
 Zoo.find_by_location("Seattle")
 
-animal_1 = Animal.new("Cat",25,"lucky") 
+animal_1 = Animal.new("Cat",25,"lucky",zoo_1) 
 animal_2 = Animal.new("Cat",23,"dot") 
 animal_3 = Animal.new("Cat",21,"spicy") 
 animal_4 = Animal.new("Cat",46,"meow cow") 

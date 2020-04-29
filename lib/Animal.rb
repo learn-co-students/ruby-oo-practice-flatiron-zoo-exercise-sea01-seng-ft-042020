@@ -6,10 +6,11 @@ class Animal
     
     @@all = []
 
-    def initialize(species,weight,nickname)
+    def initialize(species,weight,nickname,zoo=nil)
         @species = species
         @weight = weight
         @nickname = nickname
+        @zoo = zoo
         @@all << self
     end
 
